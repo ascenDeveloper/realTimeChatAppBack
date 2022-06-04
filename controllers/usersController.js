@@ -59,3 +59,12 @@ module.exports.setAvatar = async (req, res, next) => {
     }
     
 }
+
+module.exports.getAllUsers = async (req, res, next) => {
+    try{
+        const data = req
+    } catch(err) {
+        next(err)
+    }
+    
+}
